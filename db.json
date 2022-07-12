@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Rugen Ugal",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "urlSticker": "https://i.ibb.co/5Y8xhCM/Ruben.png"
         },
         {
             "id": 2,
@@ -13,12 +13,12 @@
         {
             "id": 3,
             "name": "Giacomo Di Palo",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "urlSticker": "https://i.ibb.co/9hqm3wd/Giacomo.png"
         },
         {
             "id": 4,
             "name": "Marco Parreira",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "urlSticker": "https://i.ibb.co/gMTWrM3/Marco.png"
         },
         {
             "id": 5,
@@ -27,18 +27,18 @@
         },
         {
             "id": 6,
-            "name": "Rafael Vela",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "name": "Lucas",
+            "urlSticker": "https://i.ibb.co/Tg3LTtw/Lucas.png"
         },
         {
             "id": 7,
             "name": "Raul Gallardo",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "urlSticker": "https://i.ibb.co/3vDJ4cr/Gallardo.png"
         },
         {
             "id": 8,
             "name": "Carles Casademont",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "urlSticker": "https://i.ibb.co/6PpNgZQ/carles.png"
         },
         {
             "id": 9,
@@ -48,7 +48,7 @@
         {
             "id": 10,
             "name": "Marc Cinca",
-            "urlSticker": "https://i.ibb.co/5kcxYTs/Cinca.png"
+            "urlSticker": "https://i.ibb.co/KySxYYg/Cinca-Mejor.png"
         },
         {
             "id": 11,
@@ -73,7 +73,7 @@
         {
             "id": 15,
             "name": "Adrian Garcia",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "urlSticker": "https://i.ibb.co/tCgwp5C/Chino.png"
         },
         {
             "id": 16,
@@ -87,18 +87,18 @@
         },
         {
             "id": 18,
-            "name": "Rocio",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "name": "Sossio",
+            "urlSticker": "https://i.ibb.co/NpDWr6k/sossio.png"
         },
         {
             "id": 19,
-            "name": "Karim",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "name": "Rocio",
+            "urlSticker": "https://i.ibb.co/3vBZNv2/rocio.png"
         },
         {
             "id": 20,
-            "name": "Rafa Sanchez",
-            "urlSticker": "https://i.ibb.co/g7zFw6J/Labrador-Retriever-1210559.jpg"
+            "name": "Rafa Vela",
+            "urlSticker": "https://i.ibb.co/KK6YHby/Vela.png"
         }
     ]
 }
