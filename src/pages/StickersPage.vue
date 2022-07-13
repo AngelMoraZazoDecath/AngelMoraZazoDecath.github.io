@@ -123,7 +123,6 @@ h1{
    
 }
    
-}
 #pista{
     font-family: 'Verdana', sans-serif;
     display: flex; 
