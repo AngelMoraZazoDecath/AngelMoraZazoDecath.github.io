@@ -1,8 +1,10 @@
 <template>
+<center>
     <div class="sticker-container">
         <img v-if="!showSticker" class="hidden-sticker" :src="StickerImage" alt="" />
         <img v-else class="fade-in" :src="StickerImage" alt="" />
-    </div>
+    </div><br>
+</center>
 </template>
 
 <script>
@@ -69,6 +71,7 @@ img {
     -ms-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
+  
 }
 
 .hidden-sticker {

@@ -3,14 +3,9 @@
         <ul>
             <li v-for="sticker in stickers" :key="sticker.id" @click="$emit('selection', sticker.id)">
                 {{ sticker.name }}
-
             </li>
-
         </ul>
-
-
     </div>
-
 </template>
 
 <script>
