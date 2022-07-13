@@ -46,20 +46,6 @@ export default {
 
 <style>
 
-
-
-
-
-
-
-@import url('http://fonts.cdnfonts.com/css/arcade-classic');
-
-#vidas{
-    font-family: 'ArcadeClassic', sans-serif;
-    color: red;
-    transform: translateX(calc((-100vw + 100%)/ 2));
-}
-
 .sticker-container {
     height: 200px;
 }

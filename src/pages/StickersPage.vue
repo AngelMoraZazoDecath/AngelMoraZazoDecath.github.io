@@ -140,40 +140,32 @@ export default {
 </script>
 <style>
 
-@import url('http://fonts.cdnfonts.com/css/arcade-classic');
+
+
+
+
+
 
 #respuesta{
-    font-size: 30px;
-     font-family: 'ArcadeClassic', sans-serif;
-        transform: translateX(calc((-100vw + 100%)/ 2));
-}
-
-#vidas {
-    font-family: 'ArcadeClassic', sans-serif;
-    font-size: 30px;
-    color: red;
+    font-size: 15px;
     transform: translateX(calc((-100vw + 100%)/ 2));
-}
-h1{
-    font-family: 'ArcadeClassic', sans-serif;
-        transform: translateX(calc((-100vw + 100%)/ 2));
+    font-family: 'Press Start 2P', cursive;
 }
 #buttonPista{
     float:right;
-    margin-right:15%;
+    margin:5px 300px 25px 0px;
     text-align: center;
     clear: both;
-
-   
 }
 #pista{
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     display: flex; 
     justify-content: center;
     clear: both;
     width: auto;
-    margin-left:25%;
-    margin-right:25%;
+    margin: 5px 250px 25px 250px;
+    color: #007dbc;
+    font-size: 9px;
 }
 
 </style>
