@@ -10,7 +10,9 @@
             <h1>¿De quien es este sticker?</h1>
             <StickerImage :stickerId="sticker.id" :showSticker="showStickers" :imagen="sticker.urlSticker" :pista ="sticker.pistaData" />
             <StickerList :stickers="stickersArray" @selection="checkAnswer($event)" />
+            <div style="display: flex; justify-content: center;">
             <button class="vtmn-btn vtmn-btn_variant--primary vtmn-btn_size--medium" id="buttonPista" v-if="!respuesta" @click="askPista()">Pedir pista!</button>
+            </div>
             <div class="vtmn-card" id="pista">{{pistaToShow}}</div>
                  
             <template v-if="respuesta">
@@ -116,11 +118,10 @@ h1{
         transform: translateX(calc((-100vw + 100%)/ 2));
 }
 #buttonPista{
-    float:right;
-    margin-right:15%;
-    text-align: center;
     clear: both;
-
+    margin-top:1%;
+   
+}
    
 }
 #pista{
@@ -131,6 +132,8 @@ h1{
     width: auto;
     margin-left:25%;
     margin-right:25%;
+    margin-top:1%
 }
+
 
 </style>
