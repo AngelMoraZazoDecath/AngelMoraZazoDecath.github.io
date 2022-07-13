@@ -25,6 +25,11 @@ export default {
         imagen:{
             type: String,
             required:true
+        },
+        pistaData: {
+            type: String,
+            required: true
+
         }
 
     },
