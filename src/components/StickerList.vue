@@ -22,7 +22,7 @@ export default {
 <style scoped>
 
 
-@import url('http://fonts.cdnfonts.com/css/arcade-classic');
+
 ul {
     list-style-type: none;
 }
@@ -34,7 +34,7 @@ li {
     cursor: pointer;
     margin-bottom: 10px;
     width: 250px;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 li:hover {

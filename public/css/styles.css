@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#vidas {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: red;
+    transform: translateX(calc((-100vw + 100%)/ 2));
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    transform: translateX(calc((-100vw + 100%)/ 2));
+}
+
+li {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
