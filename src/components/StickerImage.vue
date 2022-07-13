@@ -1,8 +1,10 @@
 <template>
+<center>
     <div class="sticker-container">
         <img v-if="!showSticker" class="hidden-sticker" :src="StickerImage" alt="" />
         <img v-else class="fade-in" :src="StickerImage" alt="" />
-    </div>
+    </div><br>
+</center>
 </template>
 
 <script>
@@ -44,20 +46,6 @@ export default {
 
 <style>
 
-
-
-
-
-
-
-@import url('http://fonts.cdnfonts.com/css/arcade-classic');
-
-#vidas{
-    font-family: 'ArcadeClassic', sans-serif;
-    color: red;
-    transform: translateX(calc((-100vw + 100%)/ 2));
-}
-
 .sticker-container {
     height: 200px;
 }
@@ -69,6 +57,7 @@ img {
     -ms-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
+  
 }
 
 .hidden-sticker {
