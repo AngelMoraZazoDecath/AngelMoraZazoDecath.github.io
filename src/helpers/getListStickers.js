@@ -29,7 +29,7 @@ const getStickerName = async ([a, b, c, d] = randomArray) => {
     const [p1, p2, p3, p4] = await Promise.all(promiseArray).then()
 
     const arrayStrickers = [p2.data.name, p3.data.name, p4.data.name]
-    if (!arrayStrickers.includes(p1.data.name)) {
+    if (arrayStrickers.includes(p1.data.name)) {
         getListStickers();
     }
 
