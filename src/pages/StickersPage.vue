@@ -1,9 +1,9 @@
 <template>
     <div>
         <div v-if="!sticker">
-          <div style="display: flex; justify-content: center;">
+        <div style="display: flex; justify-content: center;">
         <div class="vtmn-loader vtmn-loader_size--medium"></div>
-  </div>
+    </div>
         </div>
         <div v-else>
             <h1>Acumula 20 vidas para ganar la partida! </h1><br>
@@ -11,7 +11,7 @@
             <StickerImage :stickerId="sticker.id" :showSticker="showStickers" :imagen="sticker.urlSticker" :pista ="sticker.pistaData" />
             <StickerList v-if="cnt < 1" :stickers="stickersArray" @selection="checkAnswer($event)"/>
             <div style="display: flex; justify-content: center;">
-            <button class="vtmn-btn vtmn-btn_variant--primary vtmn-btn_size--medium" id="buttonPista" v-if="!respuesta" @click="askPista()" >Pedir pista!</button>
+            <button class="vtmn-btn vtmn-btn_variant--primary vtmn-btn_size--medium" id="buttonPista" v-if="!respuesta" @click="askPista($event)" >Pedir pista!</button>
             </div>
             <div class="vtmn-card" id="pista">{{pistaToShow}}</div>
             <template v-if="respuesta">
@@ -45,27 +45,28 @@ export default {
             aciertos:null,
             pistaToShow:null,
             endMessage:null,
-            cnt:0
+            cnt:0,
+            pistaClick:false
         }
 
     },
     methods: {
         async mixStickerArray() {
-                this.stickersArray = await getListStickers()
-                const randomInt = Math.floor(Math.random() * 3)
-                this.sticker = this.stickersArray[randomInt]
-                },
+            this.stickersArray = await getListStickers()
+            const randomInt = Math.floor(Math.random() * 3)
+            this.sticker = this.stickersArray[randomInt]
+        },
         checkAnswer(stickerId) {
-                this.showStickers = true
-                this.pistaToShow = null 
+            this.showStickers = true
+            this.pistaToShow = null 
             if (stickerId == this.sticker.id) {
-                    this.respuesta = " CORRECTO!",
-                    this.aciertos++,
-                    this.cnt++ } 
-                else { 
-                    this.respuesta=`Lo siento. Es ${this.sticker.name}` ,
-                    this.aciertos-- ,
-                    this.cnt++
+                this.respuesta = " CORRECTO!",
+                (this.pistaClick) ? this.aciertos+=0.5 : this.aciertos++,
+                this.cnt++ } 
+            else { 
+                this.respuesta=`Lo siento. Es ${this.sticker.name}` ,
+                this.aciertos-- ,
+                this.cnt++
             } 
             if(this.aciertos >19){
                 this.respuesta = false
@@ -74,7 +75,7 @@ export default {
                 this.respuesta = false
                 this.endMessage ="HAS PERDIDO, MEJOR DEDÍCATE A OTRA COSA!!"
             }
-                    }, 
+        }, 
                 
         newGame() { 
 
@@ -84,12 +85,17 @@ export default {
             this.respuesta=null,
             this.mixStickerArray(), 
             this.pistaToShow = null 
+            this.pistaClick=false
             this.cnt=0
         },
         
-        askPista(){
-    
-       this.pistaToShow = this.sticker.pistaData
+        askPista(event){
+            this.pistaToShow = this.sticker.pistaData
+
+            if(event){
+                this.pistaClick=true
+            }
+            
 
         }
     }, 

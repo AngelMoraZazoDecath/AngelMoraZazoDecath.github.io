@@ -26,7 +26,7 @@ const getStickerName = async ([a, b, c, d] = randomArray) => {
         stickerApi.get(`/${d}`)
 
     ]
-    const [p1, p2, p3,p4] = await Promise.all(promiseArray).then()
+    const [p1, p2, p3, p4] = await Promise.all(promiseArray).then()
     return [
         { name: p1.data.name, id: p1.data.id, urlSticker: p1.data.urlSticker, pistaData: p1.data.pistaData },
         { name: p2.data.name, id: p2.data.id, urlSticker: p2.data.urlSticker, pistaData: p2.data.pistaData },
