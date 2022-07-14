@@ -2,7 +2,7 @@ import stickerApi from "@/api/stickerApi";
 
 const getSticker = () => {
 
-    const stickersArray = Array.from(Array(20))
+    const stickersArray = Array.from(Array(30))
     return stickersArray.map((_, index) => index + 1)
 
 }
