@@ -1,10 +1,9 @@
 <template>
-<center>
+
     <div class="sticker-container">
         <img v-if="!showSticker" class="hidden-sticker" :src="StickerImage" alt="" />
         <img v-else class="fade-in" :src="StickerImage" alt="" />
     </div><br>
-</center>
 </template>
 
 <script>
@@ -25,6 +24,11 @@ export default {
         imagen:{
             type: String,
             required:true
+        },
+        pistaData: {
+            type: String,
+            required: true
+
         }
 
     },
@@ -51,13 +55,16 @@ export default {
 }
 
 img {
+    
     height: 200px;
     user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hidden-sticker {
