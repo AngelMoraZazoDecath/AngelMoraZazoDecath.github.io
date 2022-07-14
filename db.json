@@ -137,6 +137,66 @@
             "name": "Ángel Mora",
             "urlSticker": "https://i.ibb.co/VLSLdnw/Angel2.png",
             "pistaData": "Tiene mas melatonina que Mr. Cuba"
+        },
+        {
+            "id": 24,
+            "name": "Giner",
+            "urlSticker": "https://i.ibb.co/RCbBN4K/giner2.png",
+            "pistaData": "Mi compañero de piso solo compra cerveza"
+        },
+        {
+            "id": 25,
+            "name": "Diego Riesco",
+            "urlSticker": "https://i.ibb.co/5s8QHv9/Diego2.png",
+            "pistaData": "En la CAMPA ya se conocen mi CECO"
+        },
+        {
+            "id": 26,
+            "name": "Mattia Bianucci",
+            "urlSticker": "https://i.ibb.co/CnC3YBt/Bianucci2.png",
+            "pistaData": "Dicen que soy el italiano guapo"
+        },
+        {
+            "id": 27,
+            "name": "Ruben Ugal",
+            "urlSticker": "https://i.ibb.co/86mbphN/Ruben2.png",
+            "pistaData": "Google App Script está INFRAVALORADO"
+        },
+        {
+            "id": 28,
+            "name": "Mattia Sacchi",
+            "urlSticker": "https://i.ibb.co/fSKDF1f/Sacchi2.png",
+            "pistaData": "No ligo ni por Tinder"
+        },
+        {
+            "id": 29,
+            "name": "Fernando Cuba",
+            "urlSticker": "https://i.ibb.co/WGL9Qvb/Cuba2.png",
+            "pistaData": "Dicen que mi mujer tiene que estar satisfecha"
+        },
+        {
+            "id": 30,
+            "name": "Marc Cinca",
+            "urlSticker": "https://i.ibb.co/Srp1xnw/Cinca2.png",
+            "pistaData": "El agua es una mierda, ¿Dónde hay cerveza chicos?"
+        },
+        {
+            "id": 31,
+            "name": "Diogo Florido",
+            "urlSticker": "https://i.ibb.co/6ZnXc30/Diogo2.png",
+            "pistaData": "Cada Vez que viene de su tierra viene con menos peso"
+        },
+        {
+            "id": 32,
+            "name": "Adrian Castro",
+            "urlSticker": "https://i.ibb.co/HpbHdqG/Castro2.png",
+            "pistaData": "Deporte pasion: Meterme en un neopreno"
+        },
+        {
+            "id": 23,
+            "name": "Ángel Mora",
+            "urlSticker": "https://i.ibb.co/VLSLdnw/Angel2.png",
+            "pistaData": "Tiene mas melatonina que Mr. Cuba"
         }
     ]
 }
