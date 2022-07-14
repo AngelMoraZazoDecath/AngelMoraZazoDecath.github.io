@@ -42,7 +42,7 @@ export default {
             stickersArray:[],
             sticker: null,
             showStickers: false,
-            aciertos:null,
+            aciertos:5,
             pistaToShow:null,
             endMessage:null,
             cnt:0,
@@ -60,7 +60,7 @@ export default {
             this.showStickers = true
             this.pistaToShow = null 
             if (stickerId == this.sticker.id) {
-                this.respuesta = " CORRECTO!",
+                this.respuesta = "CORRECTO!",
                 (this.pistaClick) ? this.aciertos+=0.5 : this.aciertos++,
                 this.cnt++ } 
             else { 
@@ -70,7 +70,7 @@ export default {
             } 
             if(this.aciertos >19){
                 this.respuesta = false
-                this.endMessage = "VIDAS: "+this.aciertos+"! ENHORABUENA, HAS GANADO LA PARTIDA!!"
+                this.endMessage = "VIDAS: "+this.aciertos+"!!ENHORABUENA, HAS GANADO LA PARTIDA!!"
             }else if(this.aciertos <1){
                 this.respuesta = false
                 this.endMessage ="HAS PERDIDO, MEJOR DEDÍCATE A OTRA COSA!!"
